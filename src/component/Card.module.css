@@ -1,0 +1,79 @@
+.item{
+    border: 1px solid black;
+    width: 40rem;
+    border-radius: 2rem;
+    background-color:white;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+  }
+  
+  .item h2{
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    padding: 1rem 0rem;
+    color: cornflowerblue;
+    letter-spacing: 0.2rem;
+    
+  }
+  
+  .item p{
+    font-size: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 0.4rem;
+  
+  }
+  
+  .dateInfo{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 1rem 0rem;
+  }
+  
+  .dateInfo .time{
+    margin: 0rem 5rem;
+    font-size: 1.8rem;
+  }
+  .dateInfo .date{
+    font-size: 1.8rem;
+  }
+  
+  .btns{
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .btns .btn{
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+  }
+  
+  .btns #green{
+    background-color: green;
+    border: none;
+  }
+  .btns #red{
+    background-color: red;
+     border: none;
+  }
+  
+  .add,.remove{
+    color: white;
+    width: 2rem;
+    height: 2rem;
+   
+  }

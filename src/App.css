@@ -1,0 +1,30 @@
+.Todolist{
+  margin: auto;
+  max-width: 140rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.addBtn{
+text-align: center;
+max-width: 140rem;
+margin: auto;
+}
+
+.addBtn button{
+  position: fixed;
+  bottom: 2rem;
+  height: 4rem;
+  font-size: 5rem;
+  color: deeppink;
+  background-color: transparent;
+  border: none;
+  z-index: 10;
+  translate:calc(-25px);
+}
+
+
+
